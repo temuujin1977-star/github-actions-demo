@@ -11,7 +11,7 @@ jobs:
       - run: echo "🐧 Running on ${{ runner.os }}"
       - run: echo "Branch: ${{ github.ref }}"
       - name: Check out repository code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
       - run: echo "Repository cloned"
       - name: List files
         run: ls ${{ github.workspace }}
